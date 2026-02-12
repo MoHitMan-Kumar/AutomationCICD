@@ -1,0 +1,45 @@
+===================================================
+       GENAI (COPILOT) MASTER PROMPTS FOR AUTOMATION
+===================================================
+Usage: Type '//' followed by the prompt in Eclipse.
+Tip: Copy the HTML snippet from Chrome (Inspect -> Right Click -> Copy outerHTML).
+
+---------------------------------------------------
+1. DYNAMIC ID/CLASS (When numbers change)
+---------------------------------------------------
+// Create robust XPath handling dynamic ID for: (HTML: <PASTE_HTML_HERE>)
+// Create CSS Selector ignoring numeric suffix for: (HTML: <PASTE_HTML_HERE>)
+
+---------------------------------------------------
+2. PARENT-CHILD (When element has no unique ID)
+---------------------------------------------------
+// Create XPath for the button inside this parent div: (HTML: <PASTE_PARENT_HTML>)
+// Locate 'input' field inside 'div' with class 'form-group'
+// Locate the first 'button' inside the 'footer' tag
+
+---------------------------------------------------
+3. WEB TABLES (Finding Element relative to Text)
+---------------------------------------------------
+// Create XPath to click 'Edit' button present in the same row as text 'Mohit': (HTML: <PASTE_ROW_HTML>)
+// Locate checkbox next to the label 'I agree'
+// Create XPath for 'Delete' icon which is following-sibling of 'Order-123'
+
+---------------------------------------------------
+4. TEXT BASED (For Links & Buttons)
+---------------------------------------------------
+// Locate button having exact text 'Add to Cart'
+// Locate link containing text 'Forgot Password'
+// Create XPath for span element with text 'Success Message'
+
+---------------------------------------------------
+5. COMPLEX ELEMENTS (SVG / Icons)
+---------------------------------------------------
+// Create XPath for this SVG icon button: (HTML: <PASTE_HTML_HERE>)
+// Create CSS Selector for 'img' tag inside div id='banner'
+
+---------------------------------------------------
+6. JAVA LOGIC (Utilities)
+---------------------------------------------------
+// Create a method to switch to new window and close parent window
+// Create a utility to take screenshot and save with timestamp
+// Write a method to wait for element to be clickable (Explicit Wait)
