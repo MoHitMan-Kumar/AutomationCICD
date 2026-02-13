@@ -25,6 +25,8 @@ public class StandAloneTest {
 		
 		driver.get("https://rahulshettyacademy.com/client");
 		
+
+		//adding the comment for github webhook continuous integration
 		//write code to to login into the shopping site
 		driver.findElement(By.id("userEmail")).sendKeys("mohitmb02@gmail.com");
 		driver.findElement(By.id("userPassword")).sendKeys("Mohit@RahulAcademy1");
