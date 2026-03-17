@@ -11,7 +11,7 @@ import AbtractComponent.AbstractComponent;
 public class CartPage extends AbstractComponent {
 
 	WebDriver driver;
-	//git testing
+	//git testing completed
 	public CartPage( WebDriver driver) {
 		super(driver);
 		this.driver = driver;
